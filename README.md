@@ -15,7 +15,7 @@ Após ter criado o ambiente, é necessario ativa-lo usando o comando:
 
 - No Windows:
 
-        nome-do-ambiente\Scripts\activate.bat
+        nome-do-ambiente\Scripts\activate
 
 - No macOS e Linux:
 
@@ -27,7 +27,7 @@ Com o ambiente virtual ativo, precisamos instalar o Django e o Djangorestframewo
 
 Após a instalação do Django, vamos criar um projeto:
 
-    django-admin startproject nome-do-projeto
+    django-admin startproject nome-do-projeto .
 
 Crie um app Django:
 

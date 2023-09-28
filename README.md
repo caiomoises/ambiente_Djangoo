@@ -44,3 +44,9 @@ Execute o servidor:
     python manege.py runserver
 
 Agora você pode acessar sua API em "http://127.0.0.1:8000/".  
+
+# Criando e alterando a senha de um super usuário Django
+    Criando:
+        python manage.py createsuperuser
+    Editando:
+        python manage.py changepassword USERNAME
